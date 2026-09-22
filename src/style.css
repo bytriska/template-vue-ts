@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -196,7 +198,7 @@ code {
   }
 
   .icon {
-    margin-bottom: 16px;
+    margin: 0 auto 16px;
     width: 22px;
     height: 22px;
   }
