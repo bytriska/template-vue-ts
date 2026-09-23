@@ -8,7 +8,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <section id="center" class="flex flex-col gap-[18px] md:gap-[25px] place-content-center place-items-center grow px-5 py-6 md:p-0">
+  <section id="center" class="flex flex-col gap-[18px] md:gap-[25px] place-content-center place-items-center grow p-6 md:p-8">
     <div class="hero relative">
       <img :src="heroImg" class="base w-[170px] relative z-0 inset-x-0 mx-auto" width="170" height="179" alt="" />
       <img
@@ -26,9 +26,7 @@ const count = ref(0)
     </div>
 
     <div>
-      <h1 class="font-medium text-[36px] md:text-[56px] tracking-[-1.68px] my-5 md:my-8 text-[color:var(--text-h)]">
-        Get started
-      </h1>
+      <h1 class="font-medium text-center text-[36px] md:text-[56px] tracking-[-1.68px] my-5 md:my-8 text-[color:var(--text-h)]">Get started</h1>
       <p>
         Edit
         <code class="inline-flex rounded text-[15px] leading-[135%] px-2 py-1 text-[color:var(--text-h)] bg-[color:var(--code-bg)]">src/app.vue</code>
