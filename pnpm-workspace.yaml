@@ -1,3 +1,4 @@
 allowBuilds:
   esbuild: true
   node: true
+  simple-git-hooks: true
