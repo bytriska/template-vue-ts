@@ -34,11 +34,11 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,mjs,cjs}": [
+    "*.{vue,js,jsx,ts,tsx,mjs,cjs}": [
       "oxfmt",
       "oxlint"
     ],
-    "!(*.js|*.jsx|*.ts|*.tsx|*.mjs|*.cjs)": "oxfmt --no-error-on-unmatched-pattern"
+    "!(*.vue|*.js|*.jsx|*.ts|*.tsx|*.mjs|*.cjs)": "oxfmt --no-error-on-unmatched-pattern"
   },
   "devEngines": {
     "packageManager": {
